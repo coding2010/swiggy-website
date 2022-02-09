@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap');
+
+    * {
+        margin: 0%;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: flex;
+
+
+    }
+
+    .c1 {
+        height: 75vh;
+        width: 55%;
+        padding-left: 9rem;
+        object-fit: cover;
+        padding-bottom: 8rem;
+    }
+
+    .c2 {
+        height: 75vh;
+        width: 45%;
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .c1 input {
+        width: 30rem;
+        height: 3.5rem;
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-left: 1rem;
+    }
+
+    .search a {
+        background-color: #FC8019;
+        padding: 1.2rem;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    .c1 p {
+        font-size: 1.5rem;
+        color: #686B78;
+    }
+
+    .content {
+        margin-top: 5rem;
+        margin-left: 1.3rem;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .search p {
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login a {
+        text-decoration: none;
+        margin-right: 6rem;
+    }
+
+    .l {
+        background-color: black;
+        padding: 1rem;
+        color: white;
+    }
+
+    .k {
+        color: black;
+        padding: 0.000000001rem;
+    }
+
+    .second {
+
+        background-color: #2B1E16;
+    }
+
+    .z {
+        width: 33.333333%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem;
+        color: white;
+    }
+
+    .e {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .z img {
+        height: 15rem;
+    }
+
+    .z p {
+        color: #E0CBC1;
+        padding-bottom: 3.5rem;
+    }
+
+    .i {
+        width: 50%;
+        height: 80vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #g {
+        height: 29.9rem;
+        padding: 0;
+        margin: 0;
+        width: 23rem;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    #j {
+        height: 29.9rem;
+        padding: 0;
+        margin: 0;
+        width: 23rem;
+        position: relative;
+    }
+
+    .i p {
+        margin-bottom: 4rem;
+    }
+
+    footer {
+        display: flex;
+
+    }
+
+    footer .q {
+        width: 25%;
+        height: 60vh;
+        background-color: #000000;
+        flex-direction: column;
+        padding-left: 7.5rem;
+        padding-top: 2rem;
+    }
+
+    .q h3 {
+        color: #808080;
+    }
+
+    .q {
+        color: white;
+    }
+
+    hr {
+        color: white;
+        border-top: 2px solid white;
+    }
+
+    .q1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .q1 img {
+        margin: 0.9rem;
+        margin-right: 9rem;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col c1">
+                <div class="icon">
+                    <img src="https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Symbol.png
+                    " alt="" height="100px">
+                    <div class="login">
+                        <a href="" class="k">LOG IN</a>
+                        <a href="" class="l">SIGN UP</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>Late night at Office?</h1> <br>
+                    <p>Order food from favourite restaurants near you</p> <br> <br>
+                    <div class="search">
+                        <input type="search" placeholder="Enter your delivery location">
+                        <a href="">FIND FOOD</a> <br> <br>
+                        <p>POPULAR CITIES IN INDIA <br>
+                            Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai <br> Pune & more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col c2">
+                <img src="https://www.thenewsminute.com/sites/default/files/styles/slideshow_image_size/public/HyderabadiChicken_DumBiryani_Picxy.com-StockImageFactory_22122020_1200.jpg?itok=cuf4vwrN
+                " alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <div class="e">
+            <div class="z d1">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+                    alt=""> <br> <br>
+                <h3>
+                    No Minimum Order
+                </h3> <br>
+                <p>
+                    Order in for yourself or for the group, <br> with no restrictions on order value
+                </p>
+            </div>
+            <div class="z d2"><img
+                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+                    alt=""> <br> <br>
+                <h3>
+                    Live Order Tracking
+                </h3> <br>
+                <p>
+                    Know where your order is at all times, <br> from the restaurant to your doorstep
+                </p>
+            </div>
+            <div class="z d3"><img
+                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+                    alt=""> <br> <br>
+                <h3>
+                    Lightning-Fast Delivery
+                </h3> <br>
+                <p>
+                    Experience Swiggy's superfast delivery <br> for food delivered fresh & on time
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <div class="f">
+            <div class="i u1">
+                <div class="text">
+                    <h1>Restaurants in your pocket</h1> <br> <br>
+                    <p>Order from your favorite restaurants & track <br> on the go, with the all-new Swiggy app.</p>
+                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp"
+                        alt="" width="200px" height="75px">
+                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty"
+                        alt="" width="200px" height="75px">
+                </div>
+            </div>
+            <div class="i">
+                <img id="g"
+                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n"
+                    alt="">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn"
+                    alt="" id="j">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="q">
+            <h3>COMPANY</h3><br>
+            <p>About us <br><br>
+                Team<br><br>
+                Careers<br><br>
+                Swiggy Blog<br><br>
+                Bug Bounty<br><br>
+                Swiggy One<br><br>
+                Swiggy Corporate<br><br>
+                Swiggy Instamart<br><br>
+            </p>
+        </div>
+        <div class="q">
+            <h3>CONTACT</h3><br>
+            <p>Help & Support<br><br>
+                Partner with us<br><br>
+                Ride with us<br><br>
+            </p>
+        </div>
+        <div class="q">
+            <h3>LEGAL</h3> <br>
+            <p>Terms & Conditions<br><br>
+                Refund & Cancellation<br><br>
+                Privacy Policy<br><br>
+                Cookie Policy<br><br>
+                Offer Terms<br><br>
+                Phishing & Fraud<br><br>
+            </p>
+        </div>
+        <div class="q q1">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                alt="">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                alt="">
+        </div>
+        <hr>
+    </footer>
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script> -->
+
+</html>
